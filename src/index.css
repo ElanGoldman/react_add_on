@@ -28,6 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {
@@ -65,4 +69,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.App{
+  background-image: url("./src/assets/backgroundsky.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

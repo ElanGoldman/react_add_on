@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Mon, Feb 3 9:04</h1>
+      <h2>Mon, Feb 3 9:04</h2>
       <WeatherWheel />
       <WeatherDetails weather={todayWeather} />
       <WeeklyForecast forecast={mockForecast} />
